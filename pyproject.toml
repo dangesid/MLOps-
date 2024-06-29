@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "your-project-name"
+version = "0.1.0"
+description = "Your project description"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# Add your dependencies here
+pyarrow = "^5.0"
+
+[tool.poetry.dev-dependencies]
+# Add development dependencies if needed
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
